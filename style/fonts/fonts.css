@@ -42,31 +42,31 @@
 
 @font-face {
   font-family: "fontawesome-brands";
-  src: url("../fonts/fontAwsome/fa-brands-400.woff2");
+  src: url("../../fonts/fontAwsome/fa-brands-400.woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "fontawesome-duotone";
-  src: url("../fonts/fontAwsome/fa-duotone-900.woff2");
+  src: url("../../fonts/fontAwsome/fa-duotone-900.woff2");
   font-weight: 900;
 }
 
 @font-face {
   font-family: "fontawesome-light";
-  src: url("../fonts/fontAwsome/fa-light-300.woff2");
+  src: url("../../fonts/fontAwsome/fa-light-300.woff2");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "fontAwesome";
-  src: url("../fonts/fontAwsome/fa-regular-400.woff2");
+  src: url("../../fonts/fontAwsome/fa-regular-400.woff2");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "fontawesome-solid";
-  src: url("../fonts/fontAwsome/fa-solid-900.woff2");
+  src: url("../../fonts/fontAwsome/fa-solid-900.woff2");
   font-weight: 900;
 }
 
