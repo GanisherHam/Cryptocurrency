@@ -1,0 +1,124 @@
+/* HEADER START */
+@media (max-width: 1305px) {
+  .header::before,
+  .header::after {
+    display: none;
+  }
+}
+@media (max-width: 1190px) {
+  .header-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-info__wrapper {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .header-info__title,
+  .header-info__subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-info__discount {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 830px) {
+  .header {
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .header > .wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .navbar-menu {
+    display: none;
+    background: rgba(10, 10, 37, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90vh;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .navbar-menu__list {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+  .navbar-menu.active {
+    display: flex;
+    transition: 0.5s;
+  }
+  .navbar-menu__link,
+  .navbar-menu__login {
+    font-size: 28px;
+  }
+  .header-img__image {
+    width: 100%;
+  }
+  .burger,
+  .burger::before {
+    display: block;
+  }
+  .burger::before {
+    content: "\f13a";
+    font-size: 40px;
+    color: var(--cWhite);
+  }
+  .burger-exit::before {
+    content: "\f00d";
+    align-self: flex-start;
+    font-size: 40px;
+    color: var(--cWhite);
+  }
+}
+
+@media (max-width: 615px) {
+  .header {
+    padding-bottom: 60px;
+  }
+  .navbar-menu__login::after {
+    display: none;
+  }
+  .header-info__title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 565px) {
+  .navbar-menu {
+    right: -15%;
+  }
+}
+
+@media (max-width: 470px) {
+  .navbar-menu {
+    right: -30%;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding-bottom: 40px;
+    min-width: 385px;
+  }
+  .header > .wrapper {
+    min-height: 60px;
+  }
+  .header-info__link {
+    margin-right: 0px;
+  }
+  .header-info__title {
+    font-size: 30px;
+    line-height: 48px;
+  }
+}
+
+/* HEADER END */

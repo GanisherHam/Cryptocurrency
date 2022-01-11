@@ -1,13 +1,33 @@
 .header {
   background: var(--cMain);
   padding: 75px 0 139px 0;
+  position: relative;
+}
+
+.header::before {
+  content: url(../../images/header/stick\ long.png);
+  position: absolute;
+  top: 63%;
+}
+
+.header::after {
+  content: url(../../images/header/stick\ small.png);
+  position: absolute;
+  top: 60%;
+  left: 36%;
+}
+
+.header > .wrapper {
+  background: hsl(261, 88%, 23%, 0.5);
+  min-height: 70px;
+  margin-bottom: 51px;
+  padding-top: 10px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 51px;
 }
 
 .navbar-logo {
@@ -131,4 +151,9 @@
   background: var(--cWhite);
   border-radius: 50%;
   margin-left: 24px;
+}
+
+.buger,
+.burger::before {
+  display: none;
 }

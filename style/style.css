@@ -1,5 +1,6 @@
 @import "fonts/fonts.css";
 @import "blocks/header.css";
+@import "media/media.css";
 
 * {
   margin: 0;
