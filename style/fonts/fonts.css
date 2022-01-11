@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Rubik-Bold";
+  src: url(../../fonts/Rubik-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Rubik-Medium";
+  src: url(../../fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url(../../fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(../../fonts/Inter-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url(../../fonts/Inter-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url(../../fonts/Inter-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(../../fonts/Inter-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "fontawesome-brands";
+  src: url("../fonts/fontAwsome/fa-brands-400.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "fontawesome-duotone";
+  src: url("../fonts/fontAwsome/fa-duotone-900.woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "fontawesome-light";
+  src: url("../fonts/fontAwsome/fa-light-300.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "fontAwesome";
+  src: url("../fonts/fontAwsome/fa-regular-400.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "fontawesome-solid";
+  src: url("../fonts/fontAwsome/fa-solid-900.woff2");
+  font-weight: 900;
+}
+
+.fab {
+  font-family: "fontawesome-brands";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fad {
+  font-family: "fontawesome-duotone";
+  font-style: normal;
+  font-weight: 900;
+}
+
+.fa,
+.far,
+.fal,
+.fas {
+  font-family: "fontAwesome";
+  font-style: normal;
+}

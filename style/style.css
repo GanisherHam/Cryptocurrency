@@ -1,0 +1,48 @@
+@import "fonts/fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+:root {
+  --IB: "Inter-Bold";
+  --IM: "Inter-Medium";
+  --IR: "Inter-Regular";
+  --ISB: "Inter-SemiBold";
+  --RB: "Rubik-Bold";
+  --RM: "Rubik-Medium";
+  --RR: "Rubik-Regular";
+  --color-white: #fff;
+  --grey-neutral: #e0e0e0;
+  --blue: #3671e9;
+  --violet: #2b076e;
+}
+
+.text-default {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: var(--RR);
+  letter-spacing: 0.01em;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--RM);
+  background: var(--blue);
+  border-radius: 32px;
+}
+
+@import "blocks/header.css";
