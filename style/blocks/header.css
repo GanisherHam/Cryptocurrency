@@ -1,0 +1,70 @@
+.header {
+  background: var(--cMain);
+  padding: 75px 0 139px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 51px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo__title {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: var(--cWhite);
+  font-family: var(--IM);
+  margin-left: 16px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu__list {
+  display: flex;
+  margin-right: 56px;
+  gap: 32px;
+}
+
+.navbar-menu__link {
+  color: var(--cWhite);
+}
+
+.navbar-menu__sign {
+  display: flex;
+}
+
+.navbar-menu__login {
+  font-size: 16px;
+  line-height: 150%;
+  font-family: var(--RM);
+  text-align: center;
+  color: var(--cWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-menu__login::after {
+  content: "";
+  width: 24px;
+  height: 0;
+  opacity: 0.3;
+  border: 1px solid #f2f2f2;
+  transform: rotate(90deg);
+  margin-left: 24px;
+}
+
+.navbar-menu__btn {
+  margin-left: 24px;
+  padding: 14px 32px;
+}

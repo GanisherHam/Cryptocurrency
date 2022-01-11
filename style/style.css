@@ -1,4 +1,5 @@
 @import "fonts/fonts.css";
+@import "blocks/header.css";
 
 * {
   margin: 0;
@@ -9,9 +10,10 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 :root {
@@ -22,10 +24,11 @@
   --RB: "Rubik-Bold";
   --RM: "Rubik-Medium";
   --RR: "Rubik-Regular";
-  --color-white: #fff;
-  --grey-neutral: #e0e0e0;
+  --cWhite: #fff;
+  --nGrey: #e0e0e0;
   --blue: #3671e9;
   --violet: #2b076e;
+  --cMain: #0d0d2b;
 }
 
 .text-default {
@@ -39,10 +42,8 @@
   font-size: 18px;
   line-height: 150%;
   text-align: center;
-  color: var(--color-white);
+  color: var(--cWhite);
   font-family: var(--RM);
   background: var(--blue);
   border-radius: 32px;
 }
-
-@import "blocks/header.css";
