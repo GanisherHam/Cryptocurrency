@@ -91,7 +91,8 @@
     line-height: 60px;
   }
   .navbar-menu {
-    right: -20%;
+    right: 50%;
+    transform: translateX(50%);
   }
 }
 
@@ -109,9 +110,6 @@
   .header-info__title {
     font-size: 30px;
     line-height: 48px;
-  }
-  .navbar-menu {
-    right: -28%;
   }
 }
 
