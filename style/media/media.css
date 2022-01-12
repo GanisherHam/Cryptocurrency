@@ -99,7 +99,6 @@
 @media (max-width: 400px) {
   .header {
     padding-bottom: 40px;
-    min-width: 385px;
   }
   .header > .wrapper {
     min-height: 60px;
@@ -110,6 +109,22 @@
   .header-info__title {
     font-size: 30px;
     line-height: 48px;
+  }
+  .header-info__link {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+  .header-info__span {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 334px) {
+  .header-info__discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
 }
 
