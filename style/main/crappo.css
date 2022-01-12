@@ -1,0 +1,113 @@
+.section-crappo {
+  margin-top: -2px;
+  background: var(--cMain);
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.section-crappo::before {
+  content: url(../../images/main/main-D.png);
+  position: absolute;
+  right: 0;
+  top: 17%;
+}
+
+.section-crappo::after {
+  content: url(../../images/main/main-moon.png);
+  position: absolute;
+  right: 0;
+  bottom: 9%;
+}
+
+.section__stickImg {
+  position: absolute;
+  left: -28%;
+  top: 32%;
+}
+
+.crappo {
+  display: flex;
+  flex-direction: column;
+}
+
+.crappo-statistic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.crappo-support,
+.crappo-invest,
+.crappo-exchange {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crappo-exchange__span::before {
+  content: "\f080";
+}
+.crappo-invest__span::before {
+  content: "\f007";
+  padding: 22px;
+}
+
+.crappo-support__span::before {
+  content: "\10f57d";
+}
+
+.crappo-support__span::before,
+.crappo-invest__span::before,
+.crappo-exchange__span::before {
+  font-size: 30px;
+  color: var(--blue);
+  padding: 17px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 24px;
+}
+
+.crappo-box__title {
+  font-family: var(--RB);
+  font-size: 40px;
+  line-height: 150%;
+  color: var(--cWhite);
+}
+
+.crappo-box__subtitle {
+  color: var(--cWhite);
+}
+
+.crappo-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crappo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.crappo-info__title {
+  font-family: var(--RB);
+  font-size: 40px;
+  line-height: 150%;
+  color: var(--cWhite);
+  max-width: 480px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.crappo-info__subtitle {
+  color: var(--nGrey);
+  max-width: 408px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.crappo-info__btn {
+  padding: 16px 24px;
+}

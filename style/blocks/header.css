@@ -8,6 +8,7 @@
   content: url(../../images/header/stick\ long.png);
   position: absolute;
   top: 63%;
+  z-index: 3;
 }
 
 .header::after {
