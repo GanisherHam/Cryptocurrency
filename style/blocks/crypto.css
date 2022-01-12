@@ -1,0 +1,132 @@
+.section-crypto {
+  background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+}
+
+.crypto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto-rate {
+  background: var(--cWhite);
+  padding: 48px 0 48px 48px;
+  box-shadow: 0px 80px 40px #e4e4e6;
+  border-radius: 0px 0px 16px 16px;
+  max-width: 992px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.crypto-rate__title {
+  font-family: var(--RM);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 16px;
+}
+
+.crypto-rate__subtitle {
+  font-family: var(--RB);
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--cMain);
+  margin-bottom: 4px;
+}
+
+.rate__span {
+  color: var(--blue);
+}
+
+.crypto-rate__description {
+  color: #828282;
+}
+
+.crypto__title {
+  font-family: var(--RB);
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--cMain);
+  margin-bottom: 64px;
+}
+
+.crypto-coin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 45px;
+}
+
+.crypto-bitcoin,
+.crypto-ethereum,
+.crypto-litecoin {
+  background: #ffffff;
+  box-shadow: 0px 40px 40px #e4e4e6;
+  border-radius: 16px;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.crypto-bitcoin__span::before {
+  content: url(../../images/logo/logos_bitcoin.png);
+}
+
+.crypto-ethereum__span::before {
+  content: url(../../images/logo/eth-logo.png);
+}
+
+.crypto-litecoin__span::before {
+  content: url(../../images/logo/lite-logo.png);
+}
+
+.crypto-bitcoin__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 48px 0 25px 0;
+}
+
+.crypto-bitcoin__title {
+  font-size: 32px;
+  line-height: 150%;
+  font-family: var(--RB);
+  color: var(--cMain);
+}
+
+.crypto-bitcoin__title span {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  font-family: var(--RM);
+  color: #bdbdbd;
+  margin-left: 8px;
+}
+
+.crypto-bitcoin__subtitle {
+  text-align: center;
+  max-width: 322px;
+  width: 100%;
+  color: #828282;
+}
+
+.bitcoin__span::before {
+  content: "\f105";
+  display: block;
+  font-size: 30px;
+  color: var(--blue);
+  padding: 22px 30px;
+  background: var(--cWhite);
+  border-radius: 50%;
+  border: 2px solid rgba(43, 7, 110, 0.2);
+}
+
+.crypto-bitcoin__link.btn {
+  padding: 16px 16px 16px 24px;
+}

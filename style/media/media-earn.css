@@ -6,10 +6,19 @@
 }
 
 @media (max-width: 640px) {
+  .section-earn {
+    padding-top: 50px;
+  }
+  .calculate-hash {
+    padding: 35px;
+  }
   .earn-info__title {
     font-size: 30px;
   }
   .earn-info__subtitle {
     font-size: 16px;
+  }
+  .calculate-box::after {
+    display: none;
   }
 }

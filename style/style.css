@@ -2,9 +2,11 @@
 @import "blocks/header.css";
 @import "blocks/crappo.css";
 @import "blocks/earn.css";
+@import "blocks/crypto.css";
 @import "media/media-header.css";
 @import "media/media-crappo.css";
 @import "media/media-earn.css";
+@import "media/media-crypto.css";
 
 * {
   margin: 0;
