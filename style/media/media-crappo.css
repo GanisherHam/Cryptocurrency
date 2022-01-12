@@ -1,0 +1,52 @@
+@media (max-width: 1305px) {
+  .section__stickImg {
+    display: none;
+  }
+}
+
+@media (max-width: 1165px) {
+  .crappo-about {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .crappo-about__img {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .crappo-info {
+    align-items: center;
+  }
+  .crappo-info__title,
+  .crappo-info__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 875px) {
+  .section-crappo::before,
+  .section-crappo::after {
+    display: none;
+  }
+  .crappo-statistic {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 595px) {
+  .section-crappo {
+    padding: 50px 0;
+  }
+  .crappo-statistic {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 430px) {
+  .crappo-info__title {
+    font-size: 30px;
+  }
+}

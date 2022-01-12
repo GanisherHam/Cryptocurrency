@@ -1,0 +1,79 @@
+.section-earn {
+  background: var(--cMain);
+  padding-top: 100px;
+  margin-top: -2px;
+}
+
+.earn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.earn-info__title {
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  font-family: var(--RB);
+  color: var(--cWhite);
+  margin-bottom: 24px;
+}
+
+.earn-info__subtitle {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--nGrey);
+  font-family: var(--RR);
+  max-width: 622px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.calculate-hash {
+  padding: 42px;
+  background: #fbfcfe;
+  border-radius: 16px 16px 0px 0px;
+  max-width: 992px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.calculate-hash__btn {
+  padding: 16px 32px;
+}
+
+.calculate-hash__input {
+  width: 408px;
+  border-bottom: 1px solid var(--nGrey);
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#hashes {
+  width: 200px;
+  border-bottom: 1px solid var(--nGrey);
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  appearance: none;
+  position: relative;
+}
+
+.calculate-box {
+  position: relative;
+}
+
+.calculate-box::after {
+  content: "\f32d";
+  color: var(--nGrey);
+  font-size: 11px;
+  position: absolute;
+  top: 0%;
+  right: 1%;
+}

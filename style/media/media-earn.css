@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .calculate-hash {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 640px) {
+  .earn-info__title {
+    font-size: 30px;
+  }
+  .earn-info__subtitle {
+    font-size: 16px;
+  }
+}

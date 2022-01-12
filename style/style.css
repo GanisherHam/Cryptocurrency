@@ -1,7 +1,10 @@
 @import "fonts/fonts.css";
 @import "blocks/header.css";
-@import "media/media.css";
-@import "main/crappo.css";
+@import "blocks/crappo.css";
+@import "blocks/earn.css";
+@import "media/media-header.css";
+@import "media/media-crappo.css";
+@import "media/media-earn.css";
 
 * {
   margin: 0;
