@@ -1,0 +1,101 @@
+@media (max-width: 1170px) {
+  .market-statistic {
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .market-statistic__img {
+    position: unset;
+  }
+  .market-profit {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .market-trade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .market-trade__title {
+    max-width: 450px;
+    text-align: center;
+  }
+  .market-trade__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1153px) {
+  .market-statistic {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .market-detalies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .market-detalies__title,
+  .market-detalies__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1015px) {
+  .market {
+    margin-bottom: 70px;
+  }
+  .market-invest {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .market-info {
+    align-items: center;
+  }
+  .market-detalies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .market__title {
+    margin-bottom: 50px;
+  }
+  .market-info__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 790px) {
+  .section-market::before,
+  .section-market::after {
+    display: none;
+  }
+  .market__title {
+    font-size: 35px;
+  }
+  .market-invest__img,
+  .market-statistic__img,
+  .market-profit__img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 543px) {
+  .market__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 513px) {
+  .section-market {
+    padding: 50px 0;
+  }
+  .market__title,
+  .market-info__title,
+  .market-detalies__title,
+  .market-trade__title {
+    font-size: 26px;
+  }
+}

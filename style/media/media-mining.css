@@ -1,0 +1,34 @@
+@media (max-width: 1075px) {
+  .mining {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .section-mining__span {
+    display: none;
+  }
+  .mining-news__title,
+  .mining-news__subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .minig-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .mining-subscribe__input {
+    margin-right: 0;
+    max-width: 374px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-mining {
+    padding: 50px 0;
+  }
+}

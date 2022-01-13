@@ -3,10 +3,14 @@
 @import "blocks/crappo.css";
 @import "blocks/earn.css";
 @import "blocks/crypto.css";
+@import "blocks/market.css";
+@import "blocks/mining.css";
 @import "media/media-header.css";
 @import "media/media-crappo.css";
 @import "media/media-earn.css";
 @import "media/media-crypto.css";
+@import "media/media-market.css";
+@import "media/media-mining.css";
 
 * {
   margin: 0;

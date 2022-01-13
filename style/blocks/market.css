@@ -1,0 +1,91 @@
+.section-market {
+  background: #2b076e;
+  padding: 100px 0;
+  position: relative;
+}
+
+.section-market::after {
+  content: url(../../images/main/o-main.png);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.section-market::before {
+  content: url(../../images/main/big-half__moon.png);
+  position: absolute;
+  top: 0;
+}
+
+.market {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.market__title {
+  max-width: 758px;
+  width: 100%;
+  font-family: var(--RB);
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--cWhite);
+  margin-bottom: 100px;
+  align-self: center;
+}
+
+.market-invest {
+  display: flex;
+  justify-content: space-between;
+}
+
+.market-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.market-info__title,
+.market-detalies__title,
+.market-trade__title {
+  font-family: var(--RB);
+  font-size: 32px;
+  line-height: 150%;
+  color: var(--cWhite);
+  margin: 40px 0 24px 0;
+}
+
+.market-info__subtitle,
+.market-detalies__subtitle,
+.market-trade__subtitle {
+  font-family: var(--RR);
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--nGrey);
+  letter-spacing: 0.01em;
+  margin-bottom: 32px;
+  max-width: 408px;
+  width: 100%;
+}
+
+.market-info__link,
+.market-detalies__link,
+.market-trade__link {
+  padding: 16px 32px;
+}
+
+.market-statistic {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 300px;
+}
+
+.market-statistic__img {
+  position: absolute;
+  left: 0;
+}
+
+.market-profit {
+  display: flex;
+}
