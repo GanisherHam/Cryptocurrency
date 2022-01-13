@@ -39,6 +39,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  appearance: none;
 }
 
 .calculate-hash__btn {
@@ -63,6 +64,7 @@
   border-right: none;
   appearance: none;
   position: relative;
+  background: var(--cWhite);
 }
 
 .calculate-box {
