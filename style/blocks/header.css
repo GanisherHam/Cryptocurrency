@@ -31,12 +31,14 @@
   align-items: center;
 }
 
-.navbar-logo {
+.navbar-logo,
+.content-logo {
   display: flex;
   align-items: center;
 }
 
-.navbar-logo__title {
+.navbar-logo__title,
+.content-logo__title {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.04em;

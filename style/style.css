@@ -5,12 +5,14 @@
 @import "blocks/crypto.css";
 @import "blocks/market.css";
 @import "blocks/mining.css";
+@import "blocks/footer.css";
 @import "media/media-header.css";
 @import "media/media-crappo.css";
 @import "media/media-earn.css";
 @import "media/media-crypto.css";
 @import "media/media-market.css";
 @import "media/media-mining.css";
+@import "media/media-footer.css";
 
 * {
   margin: 0;
