@@ -14,6 +14,9 @@
   .crypto-rate__description {
     text-align: center;
   }
+  .crypto-bitcoin.bg {
+    animation: none;
+  }
 }
 
 @media (max-width: 485px) {

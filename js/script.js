@@ -16,11 +16,14 @@ cryptoBitcoin.forEach(item => {
     item.addEventListener(`click`, () => {
         removeBg(cryptoBitcoin);
         item.classList.add(`bg`);
+        document.body.style.overflow = 'hidden';
     })
 })
 
 function removeBg(array){
     array.forEach(element => {
         element.classList.remove(`bg`);
+        document.body.style.overflow = '';
     })
 }
+
