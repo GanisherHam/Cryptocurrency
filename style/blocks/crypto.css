@@ -62,9 +62,7 @@
   gap: 45px;
 }
 
-.crypto-bitcoin,
-.crypto-ethereum,
-.crypto-litecoin {
+.crypto-bitcoin {
   background: #ffffff;
   box-shadow: 0px 40px 40px #e4e4e6;
   border-radius: 16px;
@@ -72,7 +70,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .crypto-bitcoin__span::before {
@@ -115,19 +113,85 @@
   max-width: 322px;
   width: 100%;
   color: #828282;
+  margin-bottom: 25px;
 }
 
 .bitcoin__span::before {
-  content: "\f105";
-  display: block;
   font-size: 30px;
-  color: var(--blue);
   padding: 22px 30px;
+}
+
+.bitcoin__span::before {
+  display: block;
+  animation: anim 1.5s;
+}
+
+.crypto-bitcoin.bg .bitcoin__span::before {
+  display: none;
+}
+
+.crypto-bitcoin.bg {
+  background: #2b076e;
+  backdrop-filter: blur(250px);
+  animation: back 2s;
+}
+
+@keyframes back {
+  0% {
+    background: var(--cMain);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: var(--blue);
+  }
+}
+
+.crypto-bitcoin.bg .crypto-bitcoin__title,
+.crypto-bitcoin.bg .crypto-bitcoin__subtitle {
+  color: var(--cWhite);
+  transition: 1s;
+}
+
+.crypto-bitcoin__link {
+  display: none;
+}
+
+.crypto-bitcoin.bg .crypto-bitcoin__link {
+  padding: 10px 10px 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.bitcoin-block__span::before,
+.bitcoin__span::before {
+  content: "\f105";
   background: var(--cWhite);
   border-radius: 50%;
   border: 2px solid rgba(43, 7, 110, 0.2);
+  color: var(--blue);
 }
 
-.crypto-bitcoin__link.btn {
-  padding: 16px 16px 16px 24px;
+.crypto-bitcoin.bg .bitcoin-block__span::before {
+  display: block;
+  color: var(--blue);
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 24px;
+  transition: 1s;
 }

@@ -9,3 +9,18 @@ burgerMenu.addEventListener(`click`, ()=> {
 burgerExit.addEventListener(`click`, ()=> {
     navBar.classList.remove(`active`);
 })
+
+const cryptoBitcoin = document.querySelectorAll(`.crypto-bitcoin`);
+
+cryptoBitcoin.forEach(item => {
+    item.addEventListener(`click`, () => {
+        removeBg(cryptoBitcoin);
+        item.classList.add(`bg`);
+    })
+})
+
+function removeBg(array){
+    array.forEach(element => {
+        element.classList.remove(`bg`);
+    })
+}
