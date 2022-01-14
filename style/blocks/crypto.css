@@ -133,7 +133,7 @@
 .crypto-bitcoin.bg {
   background: #2b076e;
   backdrop-filter: blur(250px);
-  animation: back 2s;
+  animation: back 1.2s;
 }
 
 @keyframes back {
