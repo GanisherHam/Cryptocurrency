@@ -45,6 +45,7 @@
     height: 90vh;
     flex-direction: column;
     justify-content: space-evenly;
+    backdrop-filter: blur(7px);
   }
   .navbar-menu__list {
     flex-direction: column;
