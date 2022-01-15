@@ -34,7 +34,6 @@
     top: 0;
     left: 0;
     z-index: 10;
-    backdrop-filter: blur(7px);
   }
   .navbar-menu {
     display: none;
@@ -46,7 +45,6 @@
     height: 90vh;
     flex-direction: column;
     justify-content: space-evenly;
-    backdrop-filter: blur(7px);
   }
   .navbar-menu__list {
     flex-direction: column;
@@ -56,6 +54,7 @@
   .navbar-menu.active {
     display: flex;
     transition: 0.5s;
+    backdrop-filter: blur(5px);
   }
   .navbar-menu__link,
   .navbar-menu__login {
