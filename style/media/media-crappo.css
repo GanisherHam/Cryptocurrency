@@ -43,6 +43,12 @@
     justify-content: center;
     margin-bottom: 30px;
   }
+  .crappo-invest {
+    transform: translateX(-6%);
+  }
+  .crappo-support {
+    transform: translateX(-11%);
+  }
 }
 
 @media (max-width: 430px) {
