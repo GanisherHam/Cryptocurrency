@@ -34,6 +34,7 @@
     top: 0;
     left: 0;
     z-index: 10;
+    backdrop-filter: blur(7px);
   }
   .navbar-menu {
     display: none;
